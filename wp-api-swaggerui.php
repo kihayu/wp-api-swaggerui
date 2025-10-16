@@ -86,7 +86,7 @@ class WP_API_SwaggerUI
 
     public function getHost()
     {
-        $host = parse_url(home_url(), PHP_URL_HOST);
+        $host = parse_url(home_url(), PHP_URL_HOST) ?? '';
         $port = parse_url(home_url(), PHP_URL_PORT);
 
         if ($port) {
@@ -100,7 +100,7 @@ class WP_API_SwaggerUI
 
     public function getBasePath()
     {
-        $path = parse_url(home_url(), PHP_URL_PATH);
+        $path = parse_url(home_url(), PHP_URL_PATH) ?? '';
         return rtrim($path, '/') . '/' . ltrim(rest_get_url_prefix(), '/');
     }
 
