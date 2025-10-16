@@ -12,11 +12,11 @@ SwaggerUI used to make WordPress REST API endpoint have a interactive UI, so we 
 - Choose which namespace API that will be used on the SwaggerUI
 
 ![alt text](https://i.ibb.co/p0Kjhpn/Screen-Shot-2019-07-25-at-08-57-32.png)
-  
+
 ## Requirements
  - Your website should not block support of WordPress default REST API
  - Works for WordPress REST API Version 2
- - PHP Version should be greater than 5.4 
+ - PHP Version should be greater than 5.4
 
 ## Installation
 ### Manual Installation
@@ -24,7 +24,7 @@ SwaggerUI used to make WordPress REST API endpoint have a interactive UI, so we 
    - Run `npm install`
    - Run `npm run build`
    - Copy all files into your `wp-content/plugins/wp-api-swaggerui` folder
-   - 
+
 ### Automatic Installation
   1. Log in and navigate to Plugins > Add New.
   2. Type “WP API SwaggerUI” into the Search and hit Enter.
@@ -173,7 +173,7 @@ register_rest_route(
 
 ## Guide
 
-If you need help undesrtadning any of of the parameters used on this documentation, please refer to [Swagger Documentation](https://swagger.io/docs/specification/basic-structure/).  
+If you need help understanding any of the parameters used on this documentation, please refer to [Swagger Documentation](https://swagger.io/docs/specification/basic-structure/).
 Here is some useful links:
 - [Adding Examples](https://swagger.io/docs/specification/adding-examples/)
 - [Describing Responses](https://swagger.io/docs/specification/describing-responses/)
